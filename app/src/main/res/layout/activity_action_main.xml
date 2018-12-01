@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EE0000"
+        android:text="Enter a"/>
+    <EditText
+        android:id="@+id/edt_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EE0000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EE0000"
+        android:text="Enter b"/>
+    <EditText
+        android:id="@+id/edt_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EE0000"/>
+    <Button
+        android:id="@+id/bnt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="#4267b2"/>
+
+
+
+
+</LinearLayout>
